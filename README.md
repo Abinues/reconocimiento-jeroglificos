@@ -102,10 +102,10 @@ pip install opencv-python numpy matplotlib
 
 ### Ejecución Básica
 ```python
-# Cambiar la ruta por tu imagen de jeroglíficos y luego ejecuta el código
+# Cambiar por la ruta de tu imagen de jeroglíficos y luego ejecutar el código
 path = "ruta/a/tu/imagen.png"
 result = process_image(path)
-print(f"Jeroglíficos reconocidos: {result}")
+print(f"\nJeroglíficos reconocidos: {result}\n")
 ```
 
 ### Ejemplo de Salida
