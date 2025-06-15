@@ -1,0 +1,32 @@
+Mensajes antiguos
+
+Para comprender las primeras civilizaciones, los arqueólogos estudian a menudo textos escritos en lenguas antiguas.
+Una de estas lenguas, utilizada en Egipto hace más de 3.000 años, se basa en caracteres llamados jeroglíficos.
+La Figura debajo muestra seis jeroglíficos y sus nombres. En este problema, escribirá una función en Python para
+reconocer estos seis caracteres.
+
+Ankh, Wedjat, Djed, Scarab, Was y Akhet.
+
+Entrada
+La entrada describe una imagen que contiene uno o más jeroglíficos elegidos entre los que se muestran en la Figura.
+
+Las imágenes de entrada se ajustan a las siguientes reglas:
+- La imagen contiene sólo los jeroglíficos mostrados en la Figura.
+- Cada imagen contiene al menos un jeroglífico válido.
+- Cada píxel negro de la imagen forma parte de un jeroglífico válido.
+- Cada jeroglífico consiste en un conjunto conectado de píxeles negros y cada píxel negro tiene al menos otro píxel negro
+en su parte superior, inferior, izquierda o derecha.
+- Los jeroglíficos no se tocan y no hay ningún jeroglífico dentro de otro jeroglífico.
+- Los jeroglíficos pueden estar distorsionados, pero cada uno de ellos tiene una forma que es topológicamente equivalente
+a uno de los símbolos de la figura. (Dos figuras son topológicamente equivalentes si cada una puede ser transformada en
+el otro al estirarse sin quebrarse).
+
+Salida
+Una cadena que contenga un carácter por cada jeroglífico reconocido en la imagen, utilizando el siguiente código:
+Ankh: A
+Wedjat: J
+Djed: D
+Scarab: S
+Was: W
+Akhet: K
+En cada cadena de salida, imprima los códigos en orden alfabético. Siga el formato de la salida de la muestra.
